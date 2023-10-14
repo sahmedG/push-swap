@@ -1,6 +1,6 @@
-package algo
+package main
 
-func LargeElements(a, b []int) []int {
+func LargeStack(a, b []int) []int {
 	for len(a) != 3 {
 		min := min(a)
 		index := getIndex(a, min)
@@ -20,8 +20,7 @@ func LargeElements(a, b []int) []int {
 		}
 		pb(&a, &b)
 	}
-
-	ThreeElements(a)
+	SmallStack(a)
 
 	for len(b) != 0 {
 		pa(&a, &b)

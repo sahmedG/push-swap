@@ -1,14 +1,6 @@
 package main
 
-
-func isSortedAscending(s Stack) bool {
-	for i := 0; i < len(s)-1; i++ {
-		if s[i] > s[i+1] {
-			return false
-		}
-	}
-	return true
-}
+import "strconv"
 
 func CheckDup(a Stack) bool {
 	for i := 0; i < len(a)-1; i++ {
@@ -17,4 +9,9 @@ func CheckDup(a Stack) bool {
 		}
 	}
 	return false
+}
+
+// Parsing utility function
+func parseInt(s string) (int, error) {
+	return strconv.Atoi(s)
 }

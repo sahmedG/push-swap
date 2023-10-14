@@ -1,4 +1,4 @@
-package algo
+package main
 
 func BubbleSort(a []int) []int {
 	k := make([]int, len(a))
