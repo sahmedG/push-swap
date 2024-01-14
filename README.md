@@ -185,10 +185,6 @@ This project will help you learn about :
 - the use of sorting algorithms
 - the use of stacks
 
-## Help
-
-[https://en.wikipedia.org/wiki/Sorting_algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+## Contributers
+- [sahmedG](https://github.com/sahmedG) (Sameer Goumaa)
+- [MSK17A](https://github.com/MSK17A) (Mohammed Alsammak)
